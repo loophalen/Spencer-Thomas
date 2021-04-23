@@ -9,7 +9,7 @@ html,button,input,select,textarea,.pure-g [class*=pure-u]{
     top:20px;
     z-index:99;
     margin-top:0;
-    background-color:whitesmoke
+    background-color:c
 }
 .custom-restricted-width{
     display:inline-block
@@ -94,7 +94,7 @@ li.pure-menu-item{
     font-weight:700
 }
 #bioholder{
-    background-color:whitesmoke;
+    background-color:#ded4c8;
     width:80%;
     margin:0 auto;
     margin-top:2rem!important;
@@ -126,23 +126,7 @@ figure.sixteen-nine-img img{
 #lightlean{
     margin-top:70px
 }
-.fixed-misc {
-    position: fixed;
-    color: whitesmoke;
-    top: 50%;
-    right: -30px;
-    transform: rotate(-90deg);
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 1.25rem;
-    letter-spacing: 2px;
-    z-index: 8;
-  }
-  @media (max-width: 1275px){
-    .fixed-misc {
-      display: none;
-    }
-  } 
+
 @media(prefers-color-scheme:dark){
     body,#bioholder,.pure-menu,h2{
         color:#f3f3f3;
