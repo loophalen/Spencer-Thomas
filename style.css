@@ -1,0 +1,251 @@
+*,*::before,*::after{
+    box-sizing:border-box
+}
+html,button,input,select,textarea,.pure-g [class*=pure-u]{
+    font-family:akzidenzgrotesk-roman,akzidenzgroteskbq-light,akzidenzgroteskbq-reg,Helvetica,sans-serif;
+    letter-spacing:normal
+}
+.pure-menu{
+    top:20px;
+    z-index:99;
+    margin-top:0;
+    background-color:whitesmoke
+}
+.custom-restricted-width{
+    display:inline-block
+}
+h2,h3,.pure-menu-link{
+    text-align:center;
+    color:#000;
+    font-size:20px;
+    font-style:normal;
+    font-weight:400;
+    margin-bottom:10px;
+    margin-top:10px;
+    letter-spacing:normal;
+    word-spacing:0;
+    text-rendering:optimizeSpeed;
+    display:block
+}
+p{
+    font-size:14px;
+    line-height:22.5px;
+    letter-spacing:.4px
+}
+a{
+    color:#000;
+    text-decoration:none
+}
+a:hover{
+    color:#000;
+    text-decoration:underline
+}
+#main{
+    max-width:1200px;
+    margin:0 auto
+}
+.pure-g>div{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+.anchorz{
+    display:inline-block
+}
+.l-box{
+    padding:1em;
+    text-align:center
+}
+.presslist p{
+    margin-bottom:10px;
+    margin-top:10px;
+    font-style:italic
+}
+.sociallinkstop{
+    margin:10px auto;
+    width:45px;
+    text-align:center;
+    width:100%;
+    clear:both;
+    text-align:left
+}
+.sociallinksbottom{
+    display:inline-block;
+    width:100%;
+    text-align:center
+}
+.icon-social{
+    height:18px;
+    padding-left:8px;
+    padding-bottom:15px;
+    box-sizing:content-box
+}
+#cjlean{
+    height:622px
+}
+li.pure-menu-item{
+    float:left;
+    height:30px
+}
+.c3{
+    font-style:italic
+}
+.c5{
+    font-weight:700
+}
+#bioholder{
+    background-color:whitesmoke;
+    width:80%;
+    margin:0 auto;
+    margin-top:2rem!important;
+    padding:20px
+}
+.section{
+    margin:25px auto
+}
+figure.sixteen-nine-img{
+    width:100%;
+    overflow:hidden;
+    margin:0;
+    padding-top:56.25%;
+    position:relative
+}
+figure.sixteen-nine-img img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:100%;
+    transform:translate(-50%,-50%)
+}
+.rounded{
+    border-radius:.45rem
+}
+.darkonly{
+    display:none
+}
+#lightlean{
+    margin-top:70px
+}
+.fixed-misc {
+    position: fixed;
+    color: whitesmoke;
+    top: 50%;
+    right: -30px;
+    transform: rotate(-90deg);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    z-index: 8;
+  }
+  @media (max-width: 1275px){
+    .fixed-misc {
+      display: none;
+    }
+  } 
+@media(prefers-color-scheme:dark){
+    body,#bioholder,.pure-menu,h2{
+        color:#f3f3f3;
+        background-color:#000!important
+    }
+    .darkonly{
+        display:block
+    }
+    .lightonly{
+        display:none
+    }
+    #cjlean{
+        display:none;
+        width:0;
+        height:0
+    }
+    .pure-menu-active>.pure-menu-link,.pure-menu-link:focus,.pure-menu-link:hover{
+        background-color:#131313
+    }
+    a{
+        color:#f3f3f3!important
+    }
+    img.icon-social{
+        -webkit-filter:invert(1);
+        filter:invert(1)
+    }
+}
+@media screen and (max-width:35.5em){
+    .pure-menu-item{
+        width:16.666%;
+        margin-bottom:2vw;
+        margin-left:-5px
+    }
+    #lightlean{
+        margin-top:0
+    }
+    .pure-menu{
+        text-align:center;
+        width:100%!important
+    }
+    .pure-menu{
+        text-align:center;
+        width:100%!important
+    }
+    .pure-menu-link{
+        font-size:3.5vw
+    }
+    #mainNav>li.pure-menu-item:nth-child(1){
+        left:0
+    }
+    .pure-menu-link:hover{
+        background-color:transparent!important
+    }
+    #mainNav>li.pure-menu-item:nth-child(1){
+        left:0
+    }
+    .sociallinkstop{
+        text-align:center!important;
+        padding-top:15px
+    }
+    .soundcloud{
+        margin-left:0!important
+    }
+    .icon-social{
+        width:19px
+    }
+    #bioholder{
+        width:100%;
+        padding:10px
+    }
+    h2{
+        padding-left:10px
+    }
+}
+@media screen and (min-width:35.5em){
+    .pure-menu{
+        position:fixed;
+        top:10px;
+        margin-top:0;
+        z-index:99;
+        margin-top:80px;
+        background-color:none;
+        text-align:left
+    }
+    li.pure-menu-item{
+        float:none
+    }
+    .sociallinkstop{
+        text-align:left;
+        margin-top:15px;
+        width:45px
+    }
+    .icon-social{
+        margin:10px auto;
+        padding-bottom:0
+    }
+    .sociallinksbottom{
+        display:none
+    }
+}
+.fancybox-infobar{
+    font-size:16px
+}
+.fancybox-caption__body{
+    font-size:1.3rem
+}
