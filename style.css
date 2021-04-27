@@ -9,7 +9,6 @@ html,button,input,select,textarea,.pure-g [class*=pure-u]{
     top:20px;
     z-index:99;
     margin-top:0;
-    background-color:c
 }
 .custom-restricted-width{
     display:inline-block
@@ -93,13 +92,32 @@ li.pure-menu-item{
 .c5{
     font-weight:700
 }
+/* #nameholder{
+    background-color:#f9f7f5;
+    width:100%;
+    margin:0 auto;
+} */
 #bioholder{
-    background-color:#ded4c8;
+    background-color:#f9f7f5;
     width:80%;
     margin:0 auto;
     margin-top:2rem!important;
     padding:20px
 }
+/* #pressholder{
+    background-color:#f9f7f5;
+    width:80%;
+    margin:0 auto;
+    margin-top:2rem!important;
+    padding:20px
+} */
+/* #contactholder{
+    background-color:#f9f7f5;
+    width:100%;
+    margin-top:1rem!important;
+    padding:20px
+} */
+
 .section{
     margin:25px auto
 }
