@@ -135,6 +135,9 @@ figure.sixteen-nine-img img{
 .rounded{
     border-radius:.45rem
 }
+.songkick-widget{
+    border-radius: .45rem
+}
 .darkonly{
     display:none
 }
