@@ -16,7 +16,7 @@ html,button,input,select,textarea,.pure-g [class*=pure-u]{
 h2,h3,.pure-menu-link{
     text-align:center;
     color:#000;
-    font-size:20px;
+    font-size:17px;
     font-style:normal;
     font-weight:400;
     margin-bottom:10px;
@@ -74,13 +74,10 @@ a:hover{
     text-align:center
 }
 .icon-social{
-    height:18px;
+    height:20px;
     padding-left:8px;
     padding-bottom:15px;
     box-sizing:content-box
-}
-#cjlean{
-    height:622px
 }
 li.pure-menu-item{
     float:left;
@@ -156,11 +153,6 @@ figure.sixteen-nine-img img{
     .lightonly{
         display:none
     }
-    #cjlean{
-        display:none;
-        width:0;
-        height:0
-    }
     .pure-menu-active>.pure-menu-link,.pure-menu-link:focus,.pure-menu-link:hover{
         background-color:#131313
     }
@@ -174,9 +166,11 @@ figure.sixteen-nine-img img{
 }
 @media screen and (max-width:35.5em){
     .pure-menu-item{
-        width:16.666%;
-        margin-bottom:2vw;
-        margin-left:-5px
+        visibility: collapse;
+    }
+    li.pure-menu-item{
+        float:left;
+        height:1px
     }
     #lightlean{
         margin-top:0
@@ -190,7 +184,7 @@ figure.sixteen-nine-img img{
         width:100%!important
     }
     .pure-menu-link{
-        font-size:3.5vw
+        font-size:3.2vw
     }
     #mainNav>li.pure-menu-item:nth-child(1){
         left:0
