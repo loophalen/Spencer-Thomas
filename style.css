@@ -67,6 +67,7 @@ a:hover{
 .presslist p{
     margin-bottom:10px;
     margin-top:10px;
+    line-height: normal;
     font-style:italic
 }
 .sociallinkstop{
@@ -221,9 +222,9 @@ figure.sixteen-nine-img img{
         width:100%;
         padding:10px
     }
-    #nameholder h2{
+    /* #nameholder h2{
         font-size: 14.4px;
-    }
+    } */
     #bioholder{
         width:100%;
         padding:10px
