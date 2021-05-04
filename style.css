@@ -155,7 +155,7 @@ figure.sixteen-nine-img img{
 }
 
 @media(prefers-color-scheme:dark){
-    body,#nameholder, #bioholder,.pure-menu,h2{
+    body,#nameholder, #bioholder, #contactholder, .pure-menu,h2{
         color:#f3f3f3;
         background-color:#000!important
     }
