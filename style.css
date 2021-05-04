@@ -103,6 +103,8 @@ li.pure-menu-item{
     background-color:#f9f7f5;
     width:100%;
     margin:0 auto;
+    margin-top:.2rem!important;
+    padding: 2px
 }
 #bioholder{
     background-color:#f9f7f5;
