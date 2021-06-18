@@ -106,12 +106,17 @@ li.pure-menu-item{
     margin-top:.2rem!important;
     padding: 2px
 }
-#vinylholder{
+#vinylholder h2{
     background-color:#f9f7f5;
     width:100%;
     margin:0 auto;
     margin-top:.2rem!important;
-    padding: 2px
+    padding: 2px;
+    font-size: 30px;
+}
+#vinyl a:hover{
+    background-color: black;
+    color: white;
 }
 #bioholder{
     background-color:#f9f7f5;
@@ -230,6 +235,12 @@ figure.sixteen-nine-img img{
     #nameholder {
         width:100%;
         padding:10px
+    }
+    #vinylholder h2 {
+        font-size: 15px;
+        width: 100%;
+        padding:2px;
+        font-size: 17px
     }
     /* #nameholder h2{
         font-size: 14.4px;
